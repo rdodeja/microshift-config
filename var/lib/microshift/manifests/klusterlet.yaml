@@ -3,7 +3,7 @@ kind: Klusterlet
 metadata:
   name: klusterlet
 spec:
-  clusterName: {{ .clustername }}
+  clusterName: {{ microshift }}
   imagePullSecret: open-cluster-management-image-pull-credentials
   namespace: open-cluster-management-agent
   registrationImagePullSpec: registry.redhat.io/rhacm2/registration-rhel8@sha256:181fb79defd3faf52a7630ca9088279b3e2c99271f4359dff52492d7c36cce06
